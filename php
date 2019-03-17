@@ -29,6 +29,6 @@ function isCorrect($x){
 
 assert(isCorrect(''));
 assert(isCorrect('()'));
-assert(isCorrect('{}()[]'));
+assert(isCorrect('{(})[]'));
 
 ?>
